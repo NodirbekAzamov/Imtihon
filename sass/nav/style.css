@@ -1,0 +1,380 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(../Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Regular";
+  src: url(../Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "SamiBold";
+  src: url(../Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Medium";
+  src: url(../../Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "inter-Bold";
+  src: url(../../Inter/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "inter-Medium";
+  src: url(../../Inter/static/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: "Mont_Sami-Bold";
+  src: url(../../Montserrat/static/Montserrat-SemiBold.ttf);
+}
+nav .container {
+  padding: 50px 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+nav .container .nav_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 100%;
+  text-align: center;
+}
+nav .container .nav_text h6 {
+  color: #FFF;
+  font-family: "SamiBold";
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+nav .container .nav_text h2 {
+  margin-top: 32px;
+  color: #FFF;
+  font-family: "Bold";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: normal;
+}
+nav .container .nav_text p {
+  color: #FFF;
+  font-family: "Medium";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 16px;
+}
+nav .container .nav_boxs {
+  margin-top: 49px;
+  display: flex;
+  gap: 50px;
+}
+nav .container .nav_boxs .nav_box {
+  border-radius: 8px;
+  background: #FFF;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  padding: 30px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+nav .container .nav_boxs .nav_box h6 {
+  color: #22343D;
+  font-family: "Bold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 40px;
+}
+nav .container .nav_boxs .nav_box p {
+  color: #22343D;
+  font-family: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+}
+nav .container .nav_boxs .nav_box .nav_box-money {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+nav .container .nav_boxs .nav_box .nav_box-money h6 {
+  color: #02897A;
+  text-align: center;
+  font-family: "Regular";
+  font-size: 76px;
+  font-weight: 700;
+  line-height: 100px;
+  letter-spacing: 0.2px;
+}
+nav .container .nav_boxs .nav_box .nav_box-money .box_money-right {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+nav .container .nav_boxs .nav_box .nav_box-money .box_money-right h6 {
+  color: #02897A;
+  font-family: "inter-Bold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+}
+nav .container .nav_boxs .nav_box .nav_box-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+}
+nav .container .nav_boxs .nav_box .nav_box-p p {
+  color: #22343D;
+  font-family: "inter-Medium";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+}
+nav .container .nav_boxs .nav_box button {
+  border-radius: 8px;
+  background: #02897A;
+  color: #FFF;
+  font-family: "Mont_Sami-Bold";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 11px 18px;
+  border: none;
+  margin-top: 38px;
+}
+nav .container .nav_boxs .nav_box:nth-child(2) {
+  border-radius: 8px;
+  background: #02897A;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+}
+nav .container .nav_boxs .nav_box:nth-child(2) h6 {
+  color: #FFF;
+}
+nav .container .nav_boxs .nav_box:nth-child(2) .box_money-right h6 {
+  color: #FFF;
+}
+nav .container .nav_boxs .nav_box:nth-child(2) button {
+  background: #FFF;
+  color: #02897A;
+}
+
+@media (min-width: 1200px) {
+  nav .container {
+    padding: 50px 120px;
+  }
+  nav .container .nav_boxs .nav_box {
+    padding: 25px 45px;
+  }
+}
+@media (min-width: 990px) and (max-width: 1199px) {
+  nav .container {
+    padding: 50px 145px;
+  }
+  nav .container .nav_boxs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 769px) and (max-width: 989px) {
+  nav .container {
+    padding: 50px 90px;
+  }
+  nav .container .nav_text h6 {
+    font-size: 20px;
+    line-height: normal;
+  }
+  nav .container .nav_text h2 {
+    margin-top: 32px;
+    font-size: 35px;
+    line-height: normal;
+  }
+  nav .container .nav_text p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  nav .container .nav_boxs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .container .nav_boxs .nav_box {
+    padding: 20px 50px;
+  }
+  nav .container .nav_boxs .nav_box h6 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+  nav .container .nav_boxs .nav_box p {
+    font-size: 14px;
+    line-height: 40px;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-money h6 {
+    font-size: 56px;
+    line-height: 100px;
+    letter-spacing: 0.2px;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-money .box_money-right h6 {
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-p {
+    gap: 14px;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-p p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+  }
+  nav .container .nav_boxs .nav_box button {
+    font-size: 15px;
+    padding: 11px 18px;
+    margin-top: 30px;
+  }
+}
+@media (min-width: 447px) and (max-width: 768px) {
+  nav .container {
+    padding: 40px 50px;
+  }
+  nav .container .nav_text h6 {
+    font-size: 18px;
+  }
+  nav .container .nav_text h2 {
+    margin-top: 25px;
+    font-size: 28px;
+  }
+  nav .container .nav_text p {
+    font-size: 14px;
+  }
+  nav .container .nav_boxs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .container .nav_boxs .nav_box {
+    padding: 20px 40px;
+  }
+  nav .container .nav_boxs .nav_box h6 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  nav .container .nav_boxs .nav_box p {
+    font-size: 14px;
+    line-height: 40px;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-money h6 {
+    font-size: 42px;
+    line-height: 100px;
+    letter-spacing: 0.2px;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-money .box_money-right {
+    gap: 0;
+    padding: 0;
+    margin: 0;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-money .box_money-right h6 {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    padding: 0;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-money .box_money-right p {
+    padding: 0;
+    margin: 0;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-p {
+    gap: 14px;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-p p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+  }
+  nav .container .nav_boxs .nav_box button {
+    font-size: 15px;
+    padding: 11px 18px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 447px) {
+  nav .container {
+    padding: 20px 30px;
+  }
+  nav .container .nav_text h6 {
+    font-size: 18px;
+  }
+  nav .container .nav_text h2 {
+    margin-top: 25px;
+    font-size: 28px;
+  }
+  nav .container .nav_text p {
+    font-size: 14px;
+  }
+  nav .container .nav_boxs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  nav .container .nav_boxs .nav_box {
+    padding: 20px 40px;
+  }
+  nav .container .nav_boxs .nav_box h6 {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  nav .container .nav_boxs .nav_box p {
+    font-size: 14px;
+    line-height: 40px;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-money h6 {
+    font-size: 42px;
+    line-height: 100px;
+    letter-spacing: 0.2px;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-money .box_money-right {
+    gap: 0;
+    padding: 0;
+    margin: 0;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-money .box_money-right h6 {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    padding: 0;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-money .box_money-right p {
+    padding: 0;
+    margin: 0;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-p {
+    gap: 14px;
+  }
+  nav .container .nav_boxs .nav_box .nav_box-p p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+  }
+  nav .container .nav_boxs .nav_box button {
+    font-size: 15px;
+    padding: 11px 18px;
+    margin-top: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,474 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url(../Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(../Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SamiBold";
+    src: url(../Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url(../../Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "inter-Bold";
+    src: url(../../Inter/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: "inter-Medium";
+    src: url(../../Inter/static/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Mont_Sami-Bold";
+    src: url(../../Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+nav {
+    .container {
+        padding: 50px 145px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        .nav_text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            max-width: 100%;
+            text-align: center;
+
+            h6 {
+                color: #FFF;
+                font-family: "SamiBold";
+                font-size: 24px;
+                font-weight: 600;
+                line-height: normal;
+            }
+
+            h2 {
+                margin-top: 32px;
+                color: #FFF;
+                font-family: "Bold";
+                font-size: 40px;
+                font-weight: 700;
+                line-height: normal;
+            }
+
+            p {
+                color: #FFF;
+                font-family: "Medium";
+                font-size: 16px;
+                font-weight: 500;
+                line-height: normal;
+                margin-top: 16px;
+            }
+        }
+
+        .nav_boxs {
+            margin-top: 49px;
+            display: flex;
+            gap: 50px;
+
+            .nav_box {
+                border-radius: 8px;
+                background: #FFF;
+                box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+                padding: 30px 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+
+                h6 {
+                    color: #22343D;
+                    font-family: "Bold";
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 40px;
+                }
+
+                p {
+                    color: #22343D;
+                    font-family: "Regular";
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 40px;
+                }
+
+                .nav_box-money {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 8px;
+                    margin-bottom: 16px;
+
+                    h6 {
+                        color: #02897A;
+                        text-align: center;
+                        font-family: "Regular";
+                        font-size: 76px;
+                        font-weight: 700;
+                        line-height: 100px;
+                        letter-spacing: 0.2px;
+                    }
+
+                    .box_money-right {
+                        display: flex;
+                        align-items: flex-start;
+                        flex-direction: column;
+
+                        h6 {
+                            color: #02897A;
+                            font-family: "inter-Bold";
+                            font-size: 24px;
+                            font-weight: 700;
+                            line-height: 30px;
+                            letter-spacing: 0.1px;
+                        }
+                    }
+                }
+
+                .nav_box-p {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 16px;
+
+                    p {
+                        color: #22343D;
+                        font-family: "inter-Medium";
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 22px;
+                        letter-spacing: 0.2px;
+                    }
+                }
+
+                button {
+                    border-radius: 8px;
+                    background: #02897A;
+                    color: #FFF;
+                    font-family: "Mont_Sami-Bold";
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: normal;
+                    padding: 11px 18px;
+                    border: none;
+                    margin-top: 38px;
+                }
+            }
+
+            .nav_box:nth-child(2) {
+                border-radius: 8px;
+                background: #02897A;
+                box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+
+                h6 {
+                    color: #FFF;
+                }
+
+                .box_money-right {
+                    h6 {
+                        color: #FFF;
+                    }
+                }
+
+                button {
+                    background: #FFF;
+                    color: #02897A;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    nav {
+        .container {
+            padding: 50px 120px;
+
+            .nav_boxs {
+                .nav_box {
+                    padding: 25px 45px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1199px) {
+    nav {
+        .container {
+            padding: 50px 145px;
+
+            .nav_boxs {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 989px) {
+    nav {
+        .container {
+            padding: 50px 90px;
+            .nav_text {
+    
+                h6 {
+                    font-size: 20px;
+                    line-height: normal;
+                }
+    
+                h2 {
+                    margin-top: 32px;
+                    font-size: 35px;
+                    line-height: normal;
+                }
+    
+                p {
+                    font-size: 14px;
+                    line-height: normal;
+                }
+            }
+            .nav_boxs {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                .nav_box {
+                    padding: 20px 50px;
+                    h6 {
+                        font-size: 22px;
+                        line-height: 40px;
+                    }
+    
+                    p {
+                        font-size: 14px;
+                        line-height: 40px;
+                    }
+    
+                    .nav_box-money {
+    
+                        h6 {
+                            font-size: 56px;
+                            line-height: 100px;
+                            letter-spacing: 0.2px;
+                        }
+    
+                        .box_money-right {
+    
+                            h6 {
+                                font-size: 22px;
+                                line-height: 30px;
+                                letter-spacing: 0.1px;
+                            }
+                        }
+                    }
+    
+                    .nav_box-p {
+                        gap: 14px;
+    
+                        p {
+                            font-size: 14px;
+                            line-height: 22px;
+                            letter-spacing: 0.2px;
+                        }
+                    }
+    
+                    button {
+                        font-size: 15px;
+                        padding: 11px 18px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 447px) and (max-width: 768px) {
+    nav {
+        .container {
+            padding: 40px 50px;
+            .nav_text {
+    
+                h6 {
+                    font-size: 18px;
+                }
+    
+                h2 {
+                    margin-top: 25px;
+                    font-size: 28px;
+                }
+    
+                p {
+                    font-size: 14px;
+                }
+            }
+            .nav_boxs {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                .nav_box {
+                    padding: 20px 40px;
+                    h6 {
+                        font-size: 20px;
+                        line-height: 40px;
+                    }
+    
+                    p {
+                        font-size: 14px;
+                        line-height: 40px;
+                    }
+    
+                    .nav_box-money {
+    
+                        h6 {
+                            font-size: 42px;
+                            line-height: 100px;
+                            letter-spacing: 0.2px;
+                        }
+    
+                        .box_money-right {
+                            gap: 0;
+                            padding: 0;
+                            margin: 0;
+                            h6 {
+                                font-size: 16px;
+                                line-height: 30px;
+                                letter-spacing: 0.1px;
+                                padding: 0;
+                            }
+                            p {
+                                padding: 0;
+                                margin: 0;
+                            }
+                        }
+                    }
+    
+                    .nav_box-p {
+                        gap: 14px;
+    
+                        p {
+                            font-size: 14px;
+                            line-height: 22px;
+                            letter-spacing: 0.2px;
+                        }
+                    }
+    
+                    button {
+                        font-size: 15px;
+                        padding: 11px 18px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 447px) {
+    nav {
+        .container {
+            padding: 20px 30px;
+            .nav_text {
+    
+                h6 {
+                    font-size: 18px;
+                }
+    
+                h2 {
+                    margin-top: 25px;
+                    font-size: 28px;
+                }
+    
+                p {
+                    font-size: 14px;
+                }
+            }
+            .nav_boxs {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                .nav_box {
+                    padding: 20px 40px;
+                    h6 {
+                        font-size: 20px;
+                        line-height: 40px;
+                    }
+    
+                    p {
+                        font-size: 14px;
+                        line-height: 40px;
+                    }
+    
+                    .nav_box-money {
+    
+                        h6 {
+                            font-size: 42px;
+                            line-height: 100px;
+                            letter-spacing: 0.2px;
+                        }
+    
+                        .box_money-right {
+                            gap: 0;
+                            padding: 0;
+                            margin: 0;
+                            h6 {
+                                font-size: 16px;
+                                line-height: 30px;
+                                letter-spacing: 0.1px;
+                                padding: 0;
+                            }
+                            p {
+                                padding: 0;
+                                margin: 0;
+                            }
+                        }
+                    }
+    
+                    .nav_box-p {
+                        gap: 14px;
+    
+                        p {
+                            font-size: 14px;
+                            line-height: 22px;
+                            letter-spacing: 0.2px;
+                        }
+                    }
+    
+                    button {
+                        font-size: 15px;
+                        padding: 11px 18px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
