@@ -76,29 +76,74 @@ header .container .header_right .header_btn {
   border-radius: 4px;
   background: #02897A;
 }
+header .container .header_right span {
+  display: none;
+}
 
-@media (min-width: 1200px) {
-  header {
+@media (min-width: 990px) and (max-width: 1200px) {
+  header .container .header_right ul {
     display: none;
   }
-}
-@media (min-width: 990px) and (max-width: 1200px) {
-  header {
+  header .container .header_right button {
     display: none;
+  }
+  header .container .header_right span {
+    display: block;
+    font-size: 30px;
+    color: #FFF;
   }
 }
 @media (min-width: 769px) and (max-width: 989px) {
-  header {
+  header .container .header_right ul {
     display: none;
+  }
+  header .container .header_right button {
+    display: none;
+  }
+  header .container .header_right span {
+    display: block;
+    font-size: 30px;
+    color: #FFF;
   }
 }
 @media (min-width: 447px) and (max-width: 768px) {
-  header {
+  header .container {
+    padding: 20px 50px;
+  }
+  header .container .header_right ul {
     display: none;
+  }
+  header .container .header_right button {
+    display: none;
+  }
+  header .container .header_right span {
+    display: block;
+    font-size: 30px;
+    color: #FFF;
   }
 }
 @media (max-width: 447px) {
-  header {
+  header .container {
+    padding: 20px 30px;
+  }
+  header .container .header_left img {
+    width: 25px;
+  }
+  header .container .header_left p {
+    font-size: 20px;
+  }
+  header .container .header_right ul {
     display: none;
+  }
+  header .container .header_right button {
+    display: none;
+  }
+  header .container .header_right img {
+    display: none;
+  }
+  header .container .header_right span {
+    display: block;
+    font-size: 20px;
+    color: #FFF;
   }
 }/*# sourceMappingURL=style.css.map */

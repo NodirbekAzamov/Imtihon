@@ -65,6 +65,7 @@ header {
                     font-weight: 400;
                     line-height: 28px;
                 }
+
                 .header_li {
                     font-family: "SamiBold";
                 }
@@ -87,33 +88,109 @@ header {
                 background: #02897A;
             }
 
+            span {
+                display: none;
+            }
+
         }
     }
 }
 
-@media (min-width: 1200px) {
-    header {
-        display: none;
-    }
-}
+@media (min-width: 1200px) {}
+
 @media (min-width: 990px) and (max-width: 1200px) {
     header {
-        display: none;
+        .container {
+            .header_right {
+                ul {
+                    display: none;
+                }
+                button {
+                    display: none;
+                }
+
+                span {
+                    display: block;
+                    font-size: 30px;
+                    color: #FFF;
+                }
+            }
+        }
     }
 }
+
 @media (min-width: 769px) and (max-width: 989px) {
     header {
-        display: none;
+        .container {
+            .header_right {
+                ul {
+                    display: none;
+                }
+                button {
+                    display: none;
+                }
+
+                span {
+                    display: block;
+                    font-size: 30px;
+                    color: #FFF;
+                }
+            }
+        }
     }
 }
+
 @media (min-width: 447px) and (max-width: 768px) {
     header {
-        display: none;
+        .container {
+            padding: 20px 50px;
+            .header_right {
+                ul {
+                    display: none;
+                }
+                button {
+                    display: none;
+                }
+
+                span {
+                    display: block;
+                    font-size: 30px;
+                    color: #FFF;
+                }
+            }
+        }
     }
 }
 
 @media (max-width: 447px) {
     header {
-        display: none;
+        .container {
+            padding: 20px 30px;
+            .header_left {
+                img {
+                    width: 25px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+            .header_right {
+                ul {
+                    display: none;
+                }
+                button {
+                    display: none;
+                }
+                img {
+                    display: none;
+                }
+
+                span {
+                    display: block;
+                    font-size: 20px;
+                    color: #FFF;
+                }
+            }
+        }
     }
 }

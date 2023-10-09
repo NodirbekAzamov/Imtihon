@@ -321,11 +321,11 @@ nav .container .nav_boxs .nav_box:nth-child(2) button {
     font-size: 18px;
   }
   nav .container .nav_text h2 {
-    margin-top: 25px;
-    font-size: 28px;
+    margin-top: 20px;
+    font-size: 20px;
   }
   nav .container .nav_text p {
-    font-size: 14px;
+    font-size: 12px;
   }
   nav .container .nav_boxs {
     display: flex;
