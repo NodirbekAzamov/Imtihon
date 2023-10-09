@@ -1,0 +1,162 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Bold";
+  src: url(../Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Regular";
+  src: url(../Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: "SamiBold";
+  src: url(../Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+  font-family: "Medium";
+  src: url(../../Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: "inter-Bold";
+  src: url(../../Inter/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: "inter-Medium";
+  src: url(../../Inter/static/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: "Mont_Sami-Bold";
+  src: url(../../Montserrat/static/Montserrat-SemiBold.ttf);
+}
+section .container {
+  padding: 150px 240px;
+}
+section .container .section_many .section_text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+section .container .section_many .section_text h3 {
+  color: #FFF;
+  font-family: "Bold";
+  font-size: 34px;
+  font-weight: 700;
+  line-height: normal;
+}
+section .container .section_many .section_text p {
+  color: #FFF;
+  font-family: "Regular";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+section .container .section_many .section_boxs {
+  margin-top: 50px;
+}
+section .container .section_many .section_boxs .section_bg {
+  width: 100%;
+  height: 1px;
+  background: #474747;
+  margin: 24px 0 16px 0;
+}
+section .container .section_many .section_boxs .section_box {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+section .container .section_many .section_boxs .section_box h6 {
+  color: #FFF;
+  font-family: "Medium";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: normal;
+}
+section .container .section_many .section_boxs .section_box:nth-child(6) h6 {
+  color: #22343D;
+}
+section .container .section_many .section_boxs p {
+  color: #FFF;
+  font-family: "Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 14px;
+}
+
+@media (min-width: 769px) and (max-width: 990px) {
+  section .container {
+    padding: 80px 90px;
+  }
+  section .container .section_many .section_text h3 {
+    font-size: 28px;
+  }
+  section .container .section_many .section_text p {
+    font-size: 16px;
+    margin-top: 8px;
+  }
+  section .container .section_many .section_boxs {
+    margin-top: 50px;
+  }
+  section .container .section_many .section_boxs .section_box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  section .container .section_many .section_boxs .section_box h6 {
+    font-size: 16px;
+  }
+  section .container .section_many .section_boxs p {
+    font-size: 13px;
+    margin-top: 14px;
+  }
+}
+@media (min-width: 447px) and (max-width: 768px) {
+  section .container {
+    padding: 80px 50px;
+  }
+  section .container .section_many .section_text h3 {
+    font-size: 25px;
+  }
+  section .container .section_many .section_text p {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  section .container .section_many .section_boxs {
+    margin-top: 40px;
+  }
+  section .container .section_many .section_boxs .section_box h6 {
+    font-size: 14px;
+  }
+  section .container .section_many .section_boxs p {
+    font-size: 12px;
+    margin-top: 14px;
+  }
+}
+@media (max-width: 447px) {
+  section .container {
+    padding: 80px 30px;
+  }
+  section .container .section_many .section_text h3 {
+    font-size: 22px;
+  }
+  section .container .section_many .section_text p {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  section .container .section_many .section_boxs {
+    margin-top: 40px;
+  }
+  section .container .section_many .section_boxs .section_box h6 {
+    font-size: 14px;
+  }
+  section .container .section_many .section_boxs p {
+    font-size: 12px;
+    margin-top: 14px;
+  }
+}/*# sourceMappingURL=style.css.map */

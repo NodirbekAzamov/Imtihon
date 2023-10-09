@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url(../Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(../Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SamiBold";
+    src: url(../Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url(../../Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "inter-Bold";
+    src: url(../../Inter/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: "inter-Medium";
+    src: url(../../Inter/static/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Mont_Sami-Bold";
+    src: url(../../Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+article {
+    .container {
+        padding: 0 216px;
+
+        .article_many {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 32px;
+            background: #02897A;
+
+            .article_left {
+                padding-left: 50px;
+
+                h5 {
+                    color: #FFF;
+                    font-family: "Samibold";
+                    font-size: 32px;
+                    font-weight: 600;
+                    line-height: 151.4%;
+                }
+
+                button {
+                    padding: 10px 35px;
+                    margin-top: 98px;
+                    border-radius: 8px;
+                    background: #FFF;
+                    color: #22343D;
+                    font-family: "SamiVold";
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: normal;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    article {
+        .container {
+            padding: 0 145px;
+
+            .article_many {
+                .article_left {
+                    h5 {
+                        font-size: 30px;
+                        line-height: 151.4%;
+                    }
+
+                    button {
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 989px) {
+    article {
+        .container {
+            padding: 0 90px;
+
+            .article_many {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                .article_left {
+                    text-align: center;
+                    padding-top: 50px;
+
+                    h5 {
+                        font-size: 25px;
+                        line-height: 151.4%;
+                    }
+                    button {
+                        margin-top: 40px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 447px) and (max-width: 769px) {
+    article {
+        .container {
+            padding: 0 50px;
+
+            .article_many {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                .article_left {
+                    text-align: center;
+                    padding: 50px 30px 0;
+
+                    h5 {
+                        font-size: 22px;
+                        line-height: 151.4%;
+                    }
+                    button {
+                        margin-top: 40px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 447px) {
+    article {
+        .container {
+            padding: 0 30px;
+
+            .article_many {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+
+                .article_left {
+                    text-align: center;
+                    padding: 50px 30px 0;
+
+                    h5 {
+                        font-size: 18px;
+                        line-height: 151.4%;
+                    }
+                    button {
+                        margin-top: 40px;
+                        margin-bottom: 30px;
+                        font-size: 16px;
+                        padding: 10px 30px;
+                    }
+                }
+
+                .article_right {
+                    width: 90%;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

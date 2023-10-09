@@ -1,0 +1,182 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Bold";
+    src: url(../Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Regular";
+    src: url(../Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SamiBold";
+    src: url(../Poppins/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url(../../Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: "inter-Bold";
+    src: url(../../Inter/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: "inter-Medium";
+    src: url(../../Inter/static/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Mont_Sami-Bold";
+    src: url(../../Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+aside {
+    background: #22343D;
+    margin: 150px 0;
+    .container {
+        padding: 52px 145px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+
+        h6 {
+            color: #FFF;
+            font-family: "SamiBold";
+            font-size: 24px;
+            font-weight: 600;
+            line-height: normal;
+        }
+
+        h2 {
+            color: #FFF;
+            font-family: "Bold";
+            font-size: 34px;
+            font-weight: 700;
+            line-height: normal;
+            margin-top: 16px;
+        }
+
+        p {
+            color: #FFF;
+            font-family: "Regular";
+            font-size: 18px;
+            font-weight: 400;
+            line-height: normal;
+            margin-top: 8px;
+        }
+
+        button {
+            border-radius: 8px;
+            background: #02897A;
+            padding: 11px 18px;
+            border: none;
+            margin-top: 32px;
+        }
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1200px) {
+    aside {
+        .container {
+            h6 {
+                font-size: 24px;
+            }
+    
+            h2 {
+                font-size: 30px;
+            }
+    
+            p {
+                font-size: 18px;
+            }
+    
+            button {
+                padding: 11px 18px;
+                margin-top: 32px;
+            }
+        }
+    }
+}
+
+@media (min-width: 769px) and (max-width: 989px) {
+    aside {
+        .container {
+            h6 {
+                font-size: 20px;
+            }
+    
+            h2 {
+                font-size: 25px;
+            }
+    
+            p {
+                font-size: 16px;
+            }
+    
+            button {
+                padding: 11px 18px;
+                margin-top: 32px;
+            }
+        }
+    }
+}
+
+@media (min-width: 448px) and (max-width: 768px) {
+    aside {
+        .container {
+            padding: 50px;
+            h6 {
+                font-size: 18px;
+            }
+    
+            h2 {
+                font-size: 22px;
+            }
+    
+            p {
+                font-size: 14px;
+            }
+    
+            button {
+                padding: 11px 18px;
+                margin-top: 32px;
+            }
+        }
+    }
+}
+
+@media (max-width: 447px) {
+    aside {
+        .container {
+            padding: 40px 30px;
+            h6 {
+                font-size: 18px;
+            }
+    
+            h2 {
+                font-size: 22px;
+            }
+    
+            p {
+                font-size: 14px;
+            }
+    
+            button {
+                padding: 11px 18px;
+                margin-top: 32px;
+            }
+        }
+    }
+}
