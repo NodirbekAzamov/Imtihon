@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 @font-face {
@@ -175,6 +176,7 @@ nav {
                     padding: 11px 18px;
                     border: none;
                     margin-top: 38px;
+                    cursor: pointer;
                 }
             }
 

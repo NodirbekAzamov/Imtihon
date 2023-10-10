@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -82,6 +83,7 @@ footer .container .footer_boxs .footer_box .footer_inp button {
   font-size: 16px;
   font-weight: 700;
   line-height: normal;
+  cursor: pointer;
 }
 footer .container .footer_botton {
   display: flex;

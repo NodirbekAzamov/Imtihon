@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -154,6 +155,7 @@ nav .container .nav_boxs .nav_box button {
   padding: 11px 18px;
   border: none;
   margin-top: 38px;
+  cursor: pointer;
 }
 nav .container .nav_boxs .nav_box:nth-child(2) {
   border-radius: 8px;

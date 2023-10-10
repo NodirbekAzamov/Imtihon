@@ -74,6 +74,7 @@ aside .container button {
   padding: 11px 18px;
   border: none;
   margin-top: 32px;
+  cursor: pointer;
 }
 
 @media (min-width: 990px) and (max-width: 1200px) {
