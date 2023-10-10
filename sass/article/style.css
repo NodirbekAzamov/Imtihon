@@ -64,6 +64,7 @@ article .container .article_many .article_left button {
   font-weight: 600;
   line-height: normal;
   border: none;
+  cursor: pointer;
 }
 
 @media (min-width: 990px) and (max-width: 1200px) {

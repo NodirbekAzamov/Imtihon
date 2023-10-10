@@ -27,7 +27,7 @@
 
 
 
-footer {    
+footer {
     .container {
         padding: 165px 145px 26px;
 
@@ -37,6 +37,10 @@ footer {
             justify-content: space-between;
 
             .footer_box {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+
                 h6 {
                     color: #FFF;
                     font-family: "Medium";
@@ -47,12 +51,13 @@ footer {
                     margin-bottom: 8px;
                 }
 
-                p {
+                a {
                     color: #FFF;
                     font-family: "Regular";
                     font-size: 16px;
                     font-weight: 400;
                     line-height: 35px;
+                    text-decoration: none;
                 }
 
                 .footer_icon {
@@ -60,10 +65,10 @@ footer {
                     display: flex;
                     align-items: center;
                     gap: 16px;
-                    font-size: 30px;
 
                     a {
                         color: #FFF;
+                        font-size: 30px;
                     }
                 }
 
@@ -75,11 +80,14 @@ footer {
                         border-radius: 4px;
                         border: 1px solid #BCD0E5;
                         background: #FFF;
-                        padding: 10px 15px;
+                        padding: 12px 15px;
+                        color: #000;
+                        outline: none;
 
-                        ::placeholder {
-                            color: #FFF;
-                        }
+                    }
+
+                    input::placeholder {
+                        opacity: 0;
                     }
 
                     button {
@@ -104,7 +112,8 @@ footer {
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-top: 15px;
+            margin-top: 20px;
+
             p {
                 color: #FFF;
                 font-family: "Regular";
@@ -125,7 +134,7 @@ footer {
                 display: flex;
                 flex-wrap: wrap;
                 gap: 50px;
-                
+
             }
         }
     }
@@ -135,13 +144,14 @@ footer {
     footer {
         .container {
             padding: 120px 90px 25px;
+
             .footer_boxs {
                 display: flex;
                 align-items: flex-start;
                 justify-content: center;
                 flex-wrap: wrap;
                 gap: 50px;
-                
+
             }
         }
     }
@@ -151,13 +161,14 @@ footer {
     footer {
         .container {
             padding: 120px 50px 25px;
+
             .footer_boxs {
                 display: flex;
                 align-items: flex-start;
                 justify-content: center;
                 flex-wrap: wrap;
                 gap: 50px;
-                
+
             }
         }
     }
@@ -167,23 +178,27 @@ footer {
     footer {
         .container {
             padding: 120px 50px 25px;
+
             .footer_boxs {
                 display: flex;
                 align-items: flex-start;
                 justify-content: center;
                 flex-wrap: wrap;
                 gap: 50px;
+
                 .footer_inp {
                     display: flex;
                     align-items: center;
-                    justify-content: center;    
+                    justify-content: center;
                     flex-direction: column;
                 }
+
                 .footer_box {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     flex-direction: column;
+
                     h6 {
                         text-align: center;
                     }
